@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="container main">
+            <div class="top_item">
+                <ul class="responsive-table">
+                    <li class="table-header">
+
+                        <div class="col col-1">Book Name</div>
+                        <div class="col col-2">Code</div>
+                        <div class="col col-3">Writer Name</div>
+                        <div class="col col-4">Other</div>
+
+                    </li>
+                    <div class="list">
+                        <li class="table-row">
+                            <div class="col col-1">PERSEPOLIS</div>
+                            <div class="col col-2">543</div>
+                            <div class="col col-3">Mark Haddon</div>
+                            <div class="col col-4">N/A</div>
+                        </li>
+
+                    </div>
+                </ul>
+            </div>
+            <div class="bottom_item">
+                <span class="add_btn">
+                    <button class="plus"><i class="fas fa-plus"></i></button>
+                    Add More</span>
+
+                <div class="btn_item">
+                    <button class="btn btn-danger save">Save</button>
+                    <button class="btn btn-outline-danger cancel">Cancel</button>
+                </div>
+            </div>
+
+            <div class="item_add hideb">
+                <form>
+                    <input type="text" placeholder="Book Name" id="title" />
+                    <input type="text" placeholder="Code" id="code" />
+                    <input type="text" placeholder="Writer Name" id="writername" />
+                    <input type="submit" id="submit">
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="js.js"></script>
+</body>
+
+</html>
