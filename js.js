@@ -5,6 +5,7 @@ const title = document.querySelector('#title')
 const code = document.querySelector('#code')
 const writername = document.querySelector('#writername')
 const list = document.querySelector('.list')
+const add = document.querySelector('.add')
 
 console.log(title)
 plus.addEventListener("click",() => {
@@ -12,7 +13,7 @@ plus.addEventListener("click",() => {
 })
 
 
-submit.addEventListener('click',(e) => {
+add.addEventListener('click',(e) => {
     e.preventDefault();
 
     if(title.value == "" && writername.value == "" && writername.value == ""){
