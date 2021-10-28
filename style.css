@@ -116,17 +116,37 @@ input[type="submit"] {
         border-radius: 6px !important;
       }  
 
-
+   .col-11{
+    flex-basis: 25%;
+   }
         
+   .col-22{
+    flex-basis: 25%;
+   }
+
+   .col-33 {
+    flex-basis: 25%;
+    
+  }
+
     .col-1 {
         flex-basis: 25%;
+        border-right: 1px solid black;
       }
       .col-2 {
         flex-basis: 25%;
+        border-right: 1px solid black;
       }
       .col-3 {
         flex-basis: 25%;
+        border-right: 1px solid black;
       }
       .col-4 {
         flex-basis: 25%;
       }
+
+
+input{
+    border: none;
+    
+}
